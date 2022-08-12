@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <title>Login/Sign Up Page</title>
+    <style>
+        body {
+            background: url(background.avif);
+            background-size: cover;
+        }
+
+        .form {
+            text-align: center;
+        }
+
+        .input {
+            display: block;
+            border: 2px solid red;
+            border-radius: 25px;
+            transition: 0.25px;
+        }
+
+        .input:focus {
+            border-color: blueviolet;
+            color: brown;
+        }
+
+        .submit {
+            border: 1px;
+            display: block;
+            border: 2px solid red;
+            border-radius: 25px;
+            transition: 0.25px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .submit:hover {
+            background: chartreuse;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row"></div>
+        <div class="col-sm-12"><br></div>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 ">
+                <div class="m-5 p-5 d-flex justify-content-center align-content-center">
+                    <form class="form align-content-center" action="index.html" method="POST">
+                        <h3 class="text-center text-white">Sign Up</h3>
+                        <input class="input m-2 " type="text" name="" placeholder="Username" id="username">
+                        <input class="input m-2" type="password" name="" placeholder="Password" id="password">
+                        <input class="submit ml-lg-5 p-lg-1 text-dark" type="submit" name="" value="&emsp; Sign Up &emsp;">
+                    </form>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
